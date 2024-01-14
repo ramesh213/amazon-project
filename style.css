@@ -162,9 +162,7 @@ span {
     background-image: url("images/main.jpg");
     background-size: cover;
     height: 600px;
-    /* -webkit-mask-image: linear-gradient(#000, rgba(0,0,0,0.2));
-    mask-image: linear-gradient(#000, rgba(0,0,0,0.0.2)); */
-
+   
 }
 
 
@@ -204,3 +202,98 @@ span {
     margin-top: 1rem;
 }
 
+/* footer panel design starts here */
+
+.footer-panel {
+    height: 49px;
+    width: 100%;
+    background-color: #37475a;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-panel p {
+    font-size: 0.85rem;
+    padding: 15px 0px;
+}
+
+.footer-list {
+    background-color: #222F3D;
+    color: white;
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+ul p {
+    font-weight: 700;
+    margin-top:  40px;
+}
+ul a {
+    display: block;
+    margin-top: 15px;
+    font-size: 0.85rem;
+    color: #dddddd;
+    text-decoration: none;
+}
+.footer-logo {
+    background-color: #222F3D;
+    border-top: 0.2px solid rgb(64, 81, 81);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot-logo {
+    background-image: url("images/amazon_logo.png");
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+}
+.language {
+    outline: 0.5px solid rgb(173, 187, 191);
+    padding: 5px;
+    border-radius: 3px;
+    margin: 0px 10px 0px 70px;
+}
+
+.language i{
+    color: white;
+}
+.language select {
+    background-color: #222F3D;
+    color: white;
+    border: none;
+}
+.payment {
+    font-size: 0.85rem;
+    border-radius: 3px;
+    border: .5px solid rgb(173, 187, 191);
+    padding: 5px;
+}
+.payment p {
+    color: white;
+    letter-spacing: 0.8px;
+}
+.country {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    outline: 0.5px solid rgb(173, 187, 191);
+    padding: 7px;
+    border-radius: 3px;
+    margin: 0px 0px 0px 15px;
+    
+}
+.country img {
+    height: 16px;
+    width: 30px;
+    margin-right: 8px;
+}
+.country p {
+    font-size: 0.85rem;
+}
