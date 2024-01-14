@@ -27,10 +27,11 @@
 
 .border {
     border: 2px solid transparent;
+    transition: outline 0.5s ease;
 }
 
 .border:hover {
-    border: 1.2px solid white;
+    outline: 1.2px solid white;
 }
 
 /* nav address css */
@@ -86,6 +87,13 @@
     padding-left: 10px;
     border: none;
 }
+.search-insta {
+    background-color: white;
+    color: #8e8d8d;
+    font-size: 1.4rem;
+    padding-top: 8px;
+    padding-right: 15px;
+}
 
 .search-icon {
     width: 45px;
@@ -116,5 +124,83 @@ span {
 }
 .nav-cart i {
     font-size: 2rem;
+}
+
+/* panel designing */
+.panel {
+    height: 40px;
+    background-color: #222F3D;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-all {
+    padding: 5px;
+}
+
+.panel-options {
+    width: 90%;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.panel-options p {
+    display: inline;
+    margin-left: 10px;
+    font-weight: 550;
+    padding: 5px;
+}
+
+/* main section design  */
+
+.main-section {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: url("images/main.jpg");
+    background-size: cover;
+    height: 600px;
+    /* -webkit-mask-image: linear-gradient(#000, rgba(0,0,0,0.2));
+    mask-image: linear-gradient(#000, rgba(0,0,0,0.0.2)); */
+
+}
+
+
+/* card section design */
+
+.card-section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: -350px;
+
+}
+.box {
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px, 0px 15px;
+}
+.box-image {
+    height: 300px ;
+    background-size: cover;
+    margin: 1rem;;
+}
+
+.box-content {
+    margin:10px;
+}
+.box-content p {
+    color: rgb(25, 81, 63);
+}
+
+.box-content p,h3 {
+    margin-left: 11px;
+}
+.box-content h3 {
+    margin-top: 1rem;
 }
 
